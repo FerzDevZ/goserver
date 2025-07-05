@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build goserver",
+      "type": "shell",
+      "command": "go build -o goserver .",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run goserver serve",
+      "type": "shell",
+      "command": "./goserver serve",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
